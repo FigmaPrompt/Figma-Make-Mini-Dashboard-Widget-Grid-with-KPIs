@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Skeleton } from './ui/skeleton';
+import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { Skeleton } from '../ui/skeleton';
 import { TrendingUp, TrendingDown, AlertCircle, DollarSign, Users, ShoppingCart, Activity } from 'lucide-react';
 import { LineChart, Line, ResponsiveContainer, AreaChart, Area } from 'recharts';
 

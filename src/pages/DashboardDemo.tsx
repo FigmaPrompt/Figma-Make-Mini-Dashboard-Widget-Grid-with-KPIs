@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { DashboardGrid } from './DashboardGrid';
-import { Button } from './ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Badge } from './ui/badge';
-import { Separator } from './ui/separator';
+import { Button } from '../ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
+import { Badge } from '../ui/badge';
+import { Separator } from '../ui/separator';
 import { Moon, Sun, RefreshCw, Zap, AlertTriangle } from 'lucide-react';
 
 export function DashboardDemo() {
